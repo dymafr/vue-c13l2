@@ -6,9 +6,9 @@
 </template>
 
 <script lang="ts">
-export {
-  name: 'PageB'
-}
+export default {
+  name: 'PageB',
+};
 </script>
 
 <script setup lang="ts">
