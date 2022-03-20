@@ -5,6 +5,12 @@
   <input v-model="username" />
 </template>
 
+<script lang="ts">
+export {
+  name: 'PageB'
+}
+</script>
+
 <script setup lang="ts">
 import { ref } from 'vue';
 const username = ref('');
