@@ -12,8 +12,12 @@ export default {
 </script>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, onActivated } from 'vue';
 const username = ref('');
+
+onActivated(() => {
+  username.value += '!';
+});
 </script>
 
 <style scoped lang="scss"></style>
